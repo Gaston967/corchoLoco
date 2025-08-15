@@ -1,0 +1,15 @@
+$header-bg: #070707;
+$header-text: white;
+$header-padding: 10px;
+
+.header {
+  background: $header-bg;
+  color:$header-text;
+  padding: $header-padding;
+}
+
+.header nav a {
+  color: $header-text;
+  margin-right: 15px;
+  text-decoration: none;
+}

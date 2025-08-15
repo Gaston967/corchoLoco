@@ -1,0 +1,38 @@
+
+$footer-bg: #e00000;
+$footer-text: white;
+$footer-padding: 10px;
+
+.footer {
+  background: $footer-bg;
+  color: $footer-text;
+  text-align: center;
+  padding: $footer-padding;
+}
+//-----------------
+$footer-bg: #e00000;
+$footer-text: white;
+
+// 🎛️ Mixin reutilizable para padding
+@mixin padding-base($size) {
+  padding: $size;
+}
+
+.footer {
+  background: $footer-bg;
+  color: $footer-text;
+  text-align: center;
+  @include padding-base(10px);
+
+  p {
+    font-size: 1rem;
+  }
+
+  // 📱 Responsive
+  @media (max-width: 600px) {
+    p {
+      font-size: 0.875rem;
+    }
+    @include padding-base(6px);
+  }
+}
