@@ -6,6 +6,14 @@ $header-padding: 10px;
   background: $header-bg;
   color:$header-text;
   padding: $header-padding;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
 }
 
 .header nav a {

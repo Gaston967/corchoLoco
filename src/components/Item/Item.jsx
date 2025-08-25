@@ -1,4 +1,4 @@
-import "./Card.scss";
+import "./Item.scss";
 
 export default function Card({ title, description, image }) {
   return (
