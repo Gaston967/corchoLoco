@@ -1,7 +1,7 @@
 import "./Navbar.scss";
 import CartWidget from "../CartWidget/CartWidget";
 
-export default function Header() {
+export default function Navbar() {
   return (
     <header className="header">
       <h1>Corcho Loco</h1>
